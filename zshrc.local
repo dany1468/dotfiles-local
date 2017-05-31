@@ -1,0 +1,4 @@
+# peco
+function p() { peco | while read LINE; do $@ $LINE; done }
+alias d='ghq list -p | p cd'
+alias c='g br | peco | xargs git checkout'
