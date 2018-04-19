@@ -1,4 +1,4 @@
-alias g='git'
+# alias g='git'
 alias hubb='hub browse'
 
 # ls

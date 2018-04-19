@@ -6,3 +6,6 @@ alias c='g br | peco | xargs git checkout'
 # anyenv
 export PATH="$HOME/.anyenv/bin:$PATH"
 eval "$(anyenv init -)"
+
+# direnv
+eval "$(direnv hook zsh)"
